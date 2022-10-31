@@ -1,7 +1,8 @@
-https://www.figma.com/file/qBBHd4BcnbfIKxugst6ckH/DONUT-MASTERCLASS-NEW-(GoIT)?node-id=0%3A1
+Посилання на макет https://www.figma.com/file/qBBHd4BcnbfIKxugst6ckH/DONUT-MASTERCLASS-NEW-(GoIT)?node-id=0%3A1
 
-Ссылка на Телегу https://t.me/+--nzcglCTUwyYzRi
+Посилання на Телеграм https://t.me/+--nzcglCTUwyYzRi
 
+Посилання на Трело https://trello.com/b/YcIBipyN/donut-masterclass-with-the-donut-king
 
 Задача:
 
