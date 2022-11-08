@@ -1,5 +1,128 @@
 <section class="program">
   <div class="container">
-   <p>PROGRAM</p>
+    <!-- опис програм -->
+    <div class="program__description">
+      <h2 class="section__title">Program</h2>
+      <p class="text text--program">
+        Indulge in this immersive sweet treat experience with The Chef Donut
+        Queen in her New York donut shop!
+      </p>
+
+      <ul class="list program__list">
+        <li class="program__item">
+          <p class="program__event text">A stand up history of donuts</p>
+        </li>
+        <li class="program__item">
+          <p class="program__event text">Make 3 donuts flavor of your choise</p>
+        </li>
+        <li class="program__item">
+          <p class="program__event text">Enjoy all-you-can-eat donuts</p>
+        </li>
+        <li class="program__item">
+          <p class="program__event text">
+            Coctail pairings and coffee included
+          </p>
+        </li>
+        <li class="program__item">
+          <p class="program__event text">
+            Photoshoot by professional photographer
+          </p>
+        </li>
+        <li class="program__item">
+          <p class="program__event text">Secret receipt of cooking fron Eva</p>
+        </li>
+        <li class="program__item">
+          <p class="program__event text">
+            All products are included in the price
+          </p>
+        </li>
+      </ul>
+      <div>
+        <button class="open-text open-text--program text">Read more</button>
+      </div>
+    </div>
+
+    <!-- картки із зображеннями -->
+    <ul class="program__pictures list">
+      <li class="program__card">
+        <picture>
+          <source
+            srcset="
+              ./images/program/mobile/cooking-classes.png    1x,
+              ./images/program/mobile/cooking-classes@2x.png 2x
+            "
+          />
+          <img
+            class="program__image"
+            alt="donuts"
+            src="./images/program/mobile/cooking-classes.png"
+          />
+        </picture>
+        <div class="program__image-thumb">
+          <p class="card__title">Type of the event</p>
+          <p class="card__text">Cooking classes</p>
+        </div>
+      </li>
+
+      <li class="program__card program__card--right">
+        <picture
+          ><source
+            srcset="
+              ./images/program/mobile/number-of-guests.png    1x,
+              ./images/program/mobile/number-of-guests@2x.png 2x
+            "
+          />
+          <img
+            class="program__image"
+            alt="two women at the table"
+            src="./images/program/mobile/number-of-guests.png"
+          />
+        </picture>
+        <div class="program__image-thumb program__image-thumb--right">
+          <p class="card__title">Number of guests</p>
+          <p class="card__text">1 to 20</p>
+        </div>
+      </li>
+
+      <li class="program__card">
+        <picture>
+          <source
+            srcset="
+              ./images/program/mobile/time-of-event.png    1x,
+              ./images/program/mobile/time-of-event@2x.png 2x
+            "
+          />
+          <img
+            class="program__image"
+            alt="cook with clock"
+            src="./images/program/mobile/time-of-event.png"
+          />
+        </picture>
+        <div class="program__image-thumb">
+          <p class="card__title">Time of the event</p>
+          <p class="card__text">18:30 (2.5 hours</p>
+        </div>
+      </li>
+
+      <li class="program__card program__card--right">
+        <picture>
+          <source
+            srcset="
+              ./images/program/mobile/the-host-speaks.png    1x,
+              ./images/program/mobile/the-host-speaks@2x.png 2x
+            "
+          />
+          <img
+            class="program__image"
+            alt="speaker in front of the audience"
+            src="./images/program/mobile/the-host-speaks.png"
+          />
+        </picture>
+        <div class="program__image-thumb program__image-thumb--right">
+          <p class="card__title">The host speaks</p>
+          <p class="card__text">English, French</p>
+        </div>
+      </li>
+    </ul>
   </div>
 </section>
