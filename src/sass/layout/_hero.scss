@@ -1,3 +1,82 @@
 .hero {
   display: block;
+  // padding-left: 16px;
+  padding-top: 171px;
+  padding-bottom: 90px;
+  background-color: #5e5e5e;
+  text-align: left;
+  background-image: url('/src/images/hero/mobile/hero-bg-mobile.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (min-width: 768px) {
+    background-image: url(/src/images/hero/desktop/hero-bg-desktop@2x.jpg);
+  }
+
+  @media screen and (min-width: 1280px) {
+    background-image: url(/src/images/hero/desktop/hero-bg-desktop@2x.jpg);
+  }
+
+  .hero-title {
+    max-width: 757px;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 65px;
+    /* or 108% */
+    color: #3c322d;
+    margin-bottom: 20px;
+    @media screen and (min-width: 768px) {
+      font-size: 60px;
+    }
+  }
+
+  .sub-title {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    /* Основной текст */
+
+    color: #3c322d;
+    margin-bottom: 28px;
+  }
+
+  .btn-register {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--accent-color);
+    border-radius: 25px;
+
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.65;
+    color: var(--secondary-text-color);
+    border: none;
+
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 32px;
+
+    transition: opacity 250ms linear;
+    &-btn:hover,
+    &-btn:focus {
+      opacity: 0.8;
+    }
+  }
+  .social-list {
+    display: flex;
+    gap: 10px;
+    // align-items: center;
+    // justify-content: center;
+    text-align: center;
+  }
 }
