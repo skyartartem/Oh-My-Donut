@@ -16,7 +16,7 @@
     background-image: url(/src/images/hero/desktop/hero-bg-desktop@2x.jpg);
   }
 
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1200px) {
     background-image: url(/src/images/hero/desktop/hero-bg-desktop@2x.jpg);
   }
 
@@ -49,10 +49,11 @@
   }
 
   .btn-register {
+    box-sizing: border-box;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--accent-color);
+    background-color: #f3848c;
     border-radius: 25px;
 
     font-family: inherit;
@@ -69,7 +70,12 @@
     transition: opacity 250ms linear;
     &-btn:hover,
     &-btn:focus {
-      opacity: 0.8;
+      box-sizing: border-box;
+      background: #ffffff;
+      // border: 1px solid #f3848c;
+      // opacity: 0.5;
+      box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+      color: var(--accent-color);
     }
   }
   .social-list {
@@ -78,5 +84,15 @@
     // align-items: center;
     // justify-content: center;
     text-align: center;
+  }
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+    transform: scale(1.5);
   }
 }
