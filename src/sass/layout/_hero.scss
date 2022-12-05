@@ -49,7 +49,6 @@
   }
 
   .btn-register {
-    box-sizing: border-box;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -62,14 +61,14 @@
     font-size: 18px;
     line-height: 1.65;
     color: var(--secondary-text-color);
-    border: none;
-
+    border: 1px solid #f3848c;
     padding: 10px 30px 10px 30px;
     margin-bottom: 32px;
 
     transition: opacity 250ms linear;
     &-btn:hover,
     &-btn:focus {
+      outline: 1px solid #f3848c;
       box-sizing: border-box;
       background: #ffffff;
       // border: 1px solid #f3848c;
